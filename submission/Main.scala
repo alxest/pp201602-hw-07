@@ -22,7 +22,7 @@ object TraitMixin extends App {
    Input: A polynomial, represented in list of coefficients.
           For example, (1, 0, i, -1) = 1 + (0 * x) + (i * x^2) + (-1 * x^3)
    Output: Calculated result of given polynomial function with "this" as an input.
-          For example, if (1 + 0*i) calls "eval" with above input, it will return
+          For example, if (1 + 0*i) calls "eval" with above input, result will be
           1 + (0 * (1 + 0*i)) + (i * (1 + 0*i)^2) + (-1 * (1 + 0*i)^3)
           = 1 + 0 + i - 1
           = 0 + i
